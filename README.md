@@ -1,29 +1,6 @@
 # discordstreamrewards
 
-function sendHeartbeat() {
-  fetch("https://discord.com/api/v9/quests/1227395355193118750/heartbeat", {
-      "headers": {
-          "authorization": "REPLACE1",
-          "content-type": "application/json",
-          "x-super-properties": "REPLACE2"
-      },
-      "body": "{\"stream_key\":\"call:REPLACE3:REPLACE4\",\"terminal\":false}",
-      "method": "POST",
-      "mode": "cors",
-      "credentials": "include"
-  })
-  .then(response => {
-      // Handle response if needed
-  })
-  .catch(error => {
-      console.error('Error sending heartbeat:', error);
-  });
-}
-sendHeartbeat();
-setInterval(sendHeartbeat, 30000);
-
-/* 
-copy the code above into a notepad
+copy the code.js into a notepad
 
 now you gotta replace all the things with REPLACE1234
 
