@@ -1,4 +1,4 @@
-# discordstreamrewards
+# discord stream rewards
 
 copy the code.js into a notepad
 
